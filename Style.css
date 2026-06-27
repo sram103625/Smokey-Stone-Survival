@@ -16,6 +16,7 @@ body {
 @media (max-width: 1000px){
     body{
         background-image: url('Images/PhoneBackground.png');
+        background: fixed;
     }
 }
 main h1 {
