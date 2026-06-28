@@ -13,6 +13,9 @@ body {
 }
 
 @media (max-width: 1000px){
+    body{
+        background: none;
+    }
     body::before {
   content: "";
   position: fixed;
