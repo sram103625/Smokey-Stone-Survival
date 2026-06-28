@@ -115,3 +115,16 @@ justify-content: space-evenly;
     width: calc(100vw - 250px);
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+    font-size: 10px;
+}
