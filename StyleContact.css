@@ -15,9 +15,23 @@ body {
 
 @media (max-width: 1000px){
     body{
-        background-image: url('Images/PhoneBackground.png');
-        background-attachment: fixed;
+        background: none;
     }
+    body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('Images/PhoneBackground.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  will-change: transform;
+
+}
 }
 main h1 {
     padding-top: 10px;
